@@ -1,0 +1,27 @@
+{
+  "name": "y",
+  "version": "1.0.0",
+  "description": "This is namastey react",
+  "keywords": [
+    "namasteyr",
+    "react"
+  ],
+  "license": "ISC",
+  "author": "Dhruv arya",
+  "type": "commonjs",
+  "scripts": {
+    "start":"parcel index.html",
+    "build":"parcel build index.html",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "parcel": "^2.16.4"
+  },
+  "dependencies": {
+    "react": "^19.2.7",
+    "react-dom": "^19.2.7"
+  },
+  "browserlist":[
+    "last 10 version of chrome "
+  ]
+}

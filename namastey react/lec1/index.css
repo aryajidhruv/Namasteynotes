@@ -1,0 +1,58 @@
+.app{}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+   
+}
+.logo{
+    width: 150px;
+    
+}
+.nav-items{
+    font-size: 20px ;
+}
+.nav-items>ul{
+    display: flex;
+    list-style-type: none ;
+}
+.nav-items>ul>li{
+    padding: 10px;
+    margin: 10px;
+}
+.res-card{
+    width: 220px;
+
+    background-color: lightgray;
+    
+    border-radius: 7px;
+    padding: 5px
+    
+}
+.res-card:hover{
+    border: 1px solid black;
+    cursor: pointer;
+    
+
+}
+.search{
+     padding: 10px;
+}
+.res-logo{
+    width: 100%;
+    height: 50%;
+    border-radius: 10px;
+
+}
+.res-text{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+.res-container{
+    display:grid;
+    grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+    gap: 11px;   
+}
+.cuisines{
+  text-overflow: ellipsis;
+  
+}
