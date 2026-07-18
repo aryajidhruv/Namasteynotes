@@ -57,6 +57,21 @@ Put /node_modules in .gitignore
  # there are two types of export
  1. export default component
  2. import Component from "path "
+
+
  -- named export /import
  1. export const component;
- 2.import {component} from "path"
+ 2.import {component} from "path" 
+
+
+ # React Hooks
+ (normal js function or utility funciton)
+ - useState() - superpowerfull satate variable in react
+ - useEffect() - 
+
+ whenever a state variable is update react will   render its  component 
+
+- learn about react fiber -acdite github 
+
+why React is fast - because it has virtual DOM ,
+it have a diff algorithm which can do efficient DOM manipulation 
