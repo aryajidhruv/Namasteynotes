@@ -75,3 +75,16 @@ Put /node_modules in .gitignore
 
 why React is fast - because it has virtual DOM ,
 it have a diff algorithm which can do efficient DOM manipulation 
+
+
+# shimmer ui 
+
+# useState
+- if u want to make your component dynamic u have to use local state variable like after this react will re render or refresh tha page 
+
+- when u change  local state variable react re-render
+
+- whenever state variable update ,recat targe reconciliation
+
+# Learn about this  
+-  onChange={(e)=>{setsearchText(e.target.value) }}/>
