@@ -21,7 +21,7 @@ import Shimmer from "./Shimmer";
     []);
    
     //step1 use async await because fetch return promises
-   const fetchData = async ()=>{const data =  await fetch("https://www.swiggy.com/dapi/restaurants/list/v5?lat=28.5250031&lng=77.2319834&is-seo-homepage-enabled=true&page_type=DESKTOP_WEB_LISTING");
+   const fetchData = async ()=>{const data =  await fetch("https://corsproxy.io/?url=https://www.swiggy.com/dapi/restaurants/list/v5?lat=28.5250031&lng=77.2319834&is-seo-homepage-enabled=true&page_type=DESKTOP_WEB_LISTING");
 
     //step3
    const json = await data.json(); 
@@ -79,7 +79,7 @@ setFilteredRestaunt(json?.data?.cards[1]?.card?.card?.gridElements?.infoWithStyl
                     const filteredList = listOfRestaurant.filter(
                     (res)=>(res?.info.avgRating|| res?.avgRating)> 4.4
                     );
-                    setlistOfRestaurant(filteredList);
+                    s(filteredList);
                 }}>
                     Top Rated Restaurant
                 </button>
